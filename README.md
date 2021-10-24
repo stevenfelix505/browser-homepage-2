@@ -2,3 +2,6 @@
 
 # [Browser Homepage](https://stevenfelix505.github.io/browser-homepage-2)
 Internet Browser homepage.
+
+## Credits
+- Anthony Restaino ([GitHub](https://www.github.com/anthonycr) | [Twitter](https://www.twitter.com/RestainoAnthony))
