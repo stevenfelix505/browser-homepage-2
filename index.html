@@ -5,7 +5,7 @@
     <meta content="en-us" http-equiv="Content-Language" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>${TITLE}</title>
+    <title>New tab</title>
 </head>
 <style>
     body {
@@ -106,7 +106,7 @@
     <div class="outer">
         <div class="middle">
             <div class="inner">
-                <img id="image_url" class="smaller" src="${IMAGE}">
+                <img id="image_url" class="smaller" src="https://raw.githubusercontent.com/anthonycr/Lightning-Browser/dev/launcher_icon_small.png">
                 </br>
                 </br>
                 <form onsubmit="return search()" class="search_bar" autocomplete="off">
@@ -123,7 +123,7 @@
     <script type="text/javascript">
         function search() {
             if (document.getElementById("search_input").value != "") {
-                window.location.href = "${BASE_URL}" + document.getElementById("search_input").value;
+                window.location.href = "url" + document.getElementById("search_input").value;
                 document.getElementById("search_input").value = "";
             }
             return false;
